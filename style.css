@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.menuItens{
+    padding: 5px;
+    margin: 5px;
+}
+.menuInputRadio{
+    margin-right: -5px ;
+    margin-left: 5px;
+}
+#game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#placar{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    width: 25px;
+    margin-right: 5px;
+}

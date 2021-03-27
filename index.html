@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+	<title>Jogo teste</title>
+</head>
+<body>
+    <div id="menu">
+        <button class="menuItens" data-js="iniciar" type="button">Iniciar</button><br>
+            <input class="menuInputRadio" type="radio" id="easy" name="mode" value="easy">
+            <label class="menuItens" for="easy"> Easy </label><br>
+            <input class="menuInputRadio" type="radio" id="regular" name="mode" value="regular">
+            <label class="menuItens" for="regular"> Regular </label><br>
+            <input class="menuInputRadio" type="radio" id="hard" name="mode" value="hard">
+            <label class="menuItens" for="hard"> Hard </label><br>
+            <label class="menuItens" for="numeroAlvo">Alvos:</label>
+            <input class="number" type="number" id="numeroAlvo" name="numeroAlvo" min="0">
+        <button disabled='true' class="menuItens" data-js="parar" id="parar"   type="button">Parar</button>
+    </div>
+
+    <div id="game">
+        <canvas data-js="canvas" width="500" height="500"></canvas>
+    </div>
+    <div id="placar">
+        <p id="acertos">Acertos: </p>
+        <p id="erros">Erros: </p>
+    </div>
+<script src="index.js"></script>
+</body>
